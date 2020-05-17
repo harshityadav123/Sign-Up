@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+
+	<style type="text/css">
+		body {
+			background-image: url("Images.jpg");
+			background-size: cover;
+			text-align: center;
+		}
+
+		.input-field {
+			border: none;
+		}
+
+		i {
+			padding-top: 5px;
+			width: 50px;
+			height: 37px;
+			background-color: #FFF;
+			text-align: center;
+			position: relative;
+			top: 4.8px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			border-right: 1px solid #DDDDDD;
+		}
+
+		label {
+			font-size: 1.5rem;
+		}
+
+		.signup {
+			width: 55%;
+			background-color: rgba(50,50,50,0.5);
+			padding-bottom: 10px;
+			color: #FFF;
+			font-family: sans-serif;
+			margin: 100px auto 200px;
+			border-top-left-radius: 40px;
+			border-bottom-right-radius: 40px;
+		}
+		.heading {
+			padding: 25px 0 0px;
+			font-size: 2.5rem;
+		}
+		a {
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.8rem;
+		}
+		.btn {
+			margin: 10px 0 0 0;
+			padding: 7px 100px;
+			background-color: rgba(50,50,50,0.6);
+			outline-color: #FFF;
+			border-radius: 5px;
+			font-size: 1.5rem;
+			color: #FFF;
+		}
+		input[type="email"],input[type="password"] {
+			margin-bottom: 25px;
+			padding: 10px 5px;
+			border-radius: 10px;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			font-size: 1.2rem;
+			outline: 0;
+		}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<div class="signup">
+		<h1 class="heading">Sign Up</h1>
+		<hr>
+
+		<label for="email">Email</label>
+		<br>
+		<div><i style="color: rgb(75,75,75);" class="fa fa-user icon fa-2x"></i><input type="email" name="email" size="60" class="input-field" placeholder=" eg.mateen@gmail.com"></div>
+
+		<br>
+
+		<label for="password">Password</label>
+		<br>
+		<div><i style="color: rgb(75,75,75);" class="fa fa-lock icon fa-2x"></i><input type="password"  class="input-field" name=" password" size="60" placeholder=" password"></div>
+		<br>
+		<button class="btn">Register</button>
+		<p>Already have an account? <a href="">  Login</a></p>
+	</div>
+
+</body>
+</html>
